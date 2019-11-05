@@ -12,7 +12,7 @@ Wechat: Ether-net
 
 Email:  wcwz020140@163.com
 
-zhihu:  [清源](https://www.zhihu.com/people/qing-yuan-8-56/activities)
+Zhihu:  [清源](https://www.zhihu.com/people/qing-yuan-8-56/activities)
 
 ## Contributors
 
@@ -20,4 +20,6 @@ zhihu:  [清源](https://www.zhihu.com/people/qing-yuan-8-56/activities)
 
 如果是有疑问可以通过Issue提出，关于文章内容的疑问我会在24h内给出回复。
 
+## License
+Book License: [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
 
