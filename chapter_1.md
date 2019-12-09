@@ -10,7 +10,7 @@
 ### 对称加密
 对称加密是指进行明文到密文加密和密文到明文解密时使用相同的秘钥，对称加密的安全性依赖于加密算法的安全性和秘钥的长度。
 
-![Alt text](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/1.png?raw=true)
+![Alt text](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/chapter_1/1.png?raw=true)
 
 优点：算法公开，速度快，保密强度高，占用空间小；
 缺点：秘钥的分发和管理比较复杂；
@@ -21,7 +21,7 @@
 ### 非对称加密
 非对称加密是指进行明文到密文加密和密文到明文解密时使用不同的秘钥，每个用户都有一对秘钥，一个用于加密，一个用于解密，其中加密秘钥可以公开，称之为公钥（Public Key），解密秘钥需要严格保存不能公开，称之为私钥（Private Key）。
 
-![Alt text](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/2.png?raw=true)
+![Alt text](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/chapter_1/2.png?raw=true)
 
 
 优点：通信双方不需要通过建立一个安全的信道来进行秘钥的交换，降低了秘钥管理的难度；
@@ -69,16 +69,4 @@
 - 发送方用自己的私钥对消息摘要进行加密，形成数字签名；
 - 发送方用对称加密算法对消息原文、数字签名进行加密，得到密文信息；
 - 发送方用接收方的公钥加密对称加密算法的密钥进行加密，形成数字信封；
-- 发送方将3中的密文信息和数字信封一起发给接收方；
-- 接收方首先用自己的私钥解密数字信封，还原对称加密算法的密钥；
-- 接受方用6中的密钥解密接收到的密文，得到原文信息和数字签名；
-- 接受方用发送方的公钥对签名信息进行解密，得到消息摘要；
-- 接收方以相同的散列函数对接收到的消息进行散列，也得到一份消息摘要；
-- 接收方比较两个消息摘要，如果完全一致，说明数据没有被篡改，签名真实有效；否则拒绝该签名。
-
-### 数字证书
-数字证书是一种权威的电子证明，由权威公正的第三方认证机构（CA）签发，广泛用于涉及需要身份认证和数据安全的领域。
-
-数字证书主要用来保证信息保密、身份确认、不可否认性、数据完整性，常见的格式是`X.509`。
-
-区块链中在节点间安全通行，身份认证，智能合约，共识算法模块中都大量使用到了上述算法。
+- 
