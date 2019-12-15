@@ -23,6 +23,8 @@
 ### 网络层
 [gossip协议](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/gossip.md)
 
+[Kademlia算法原理详解](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/kad.md)
+
 ### 交易模型
 
 ### 智能合约
