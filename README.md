@@ -21,6 +21,7 @@
 [身份认证](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/ca.md)
 
 ### 网络层
+[gossip协议](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/gossip.md)
 
 ### 交易模型
 
