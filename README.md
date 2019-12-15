@@ -1,6 +1,6 @@
 ## 区块链的构造和解释
 
-通过对Bitcoin，Ethereum, Fabric的技术原理分析，全景式的展示区块链底层技术原理。
+通过对Bitcoin，Ethereum，Fabric的技术原理分析，自底而上的介绍区块链底层技术原理。
 
 ## vision
 
