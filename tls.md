@@ -1,6 +1,7 @@
 ### TLS/SSL协议
 
 &emsp;&emsp;`TLS`传输层安全性协议（Transport Layer Security）及其前身`SSL`安全套接层（Secure Sockets Layer）是一种安全协议，目的是为互联网通信提供安全及数据完整性保障，`TLS/SSL`协议位于网络OSI七层模型的会话层，用来加密通信。
+
 &emsp;&emsp;比特币，以太坊，超级账本等项目也全部都采用TLS来保证传输层的安全通信，其中包括节点间的，节点和SDK之间的安全通信。
 ### `TLS/SSL`握手过程
 &emsp;&emsp;第一步，客户端（Client）以明文的形式发起请求信息（client_hello），其中信息包含；
