@@ -12,13 +12,13 @@
 
 ### 安全与加密
 
-[密码学基础](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/chapter_1.md)
+[1.1 密码学基础](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/chapter_1.md)
 
-[可信通信](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/tls.md)
+[1.2 可信通信](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/tls.md)
 
-[密钥协商](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/ECDH.md)
+[1.3 密钥协商](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/ECDH.md)
 
-[身份认证](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/ca.md)
+[1.4 身份认证](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/ca.md)
 
 ### 网络层
 [gossip协议](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/gossip.md)
