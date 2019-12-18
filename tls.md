@@ -2,12 +2,14 @@
 
 
 ### TLS/SSL协议
-&emsp;&emsp;`TLS`传输层安全性协议及其前身`SSL`安全套接层（Secure Sockets Layer）是一种安全协议，目的是为互联网通信提供安全及数据完整性保障，`TLS/SSL`协议位于网络OSI七层模型的会话层，用来加密通信。
+&emsp;&emsp;`TLS`传输层安全性协议及其前身`SSL`安全套接层（Secure Sockets Layer）是一种安全协议，目的是为互联网通信提供安全及数据完整性保障。
 
-&emsp;&emsp;TLS建立安全通信的方式是通过非对称加密的方式交换对称加密所用到的密钥，对后续的通信采用对称加密的方式确保安全。
+&emsp;&emsp;TLS建立安全通信的方式是通过非对称加密的方式交换对称加密所用到的密钥，对后续的通信采用对称加密的方式确保安全，也就是握手阶段和传输阶段。
 
 ### TLS/SSL握手过程
-&emsp;&emsp;第一步，客户端（Client）以明文的形式发起请求信息（client_hello），其中信息包含；
+&emsp;&emsp;下面通过客户端（Client）如何向服务端（Server）建立连接。
+
+&emsp;&emsp;第一步，客户端以明文的形式发起请求信息（client_hello），其中信息包含；
 - 客户端生成的随机数`random_C`
 - 支持的最高`TLS`协议版本
 - 客户端支持的加密套件`cipher suites`
@@ -17,7 +19,7 @@
 >  身份加密套件包括： 身份认证算法Au ，采用的密钥交换算法（密钥协商），对称加密算法，信息摘要算法Mac（校验信息的完整性）
 
 -----
-&emsp;&emsp;第二步，服务端（Server）收到客户端发来的请求以后，返回协商的信息（server_hello），其中包括
+&emsp;&emsp;第二步，服务端收到客户端发来的请求以后，返回协商的信息（server_hello），其中包括
 - 服务端生成的随机数`random_S`
 - 使用`TLS`协议的版本
 - 使用的压缩算法版本
@@ -41,7 +43,9 @@
 &emsp;&emsp;服务端进行完上面的操作以后，会用协商秘钥加密`sessionSecret`作为`encrypted_handshake_message`消息发送给客户端。
 
 -----
-&emsp;&emsp;第五步，客户端（Client）接收到`encrypted_handshake_message`消息以后，会用自己计算出的协商秘钥解密`encrypted_handshake_message`查看里面`sessionSecret`是否和自己生成的一致，如果一致则用协商出来的秘钥加密后续的通信。
+&emsp;&emsp;第五步，客户端（Client）接收到`encrypted_handshake_message`消息以后，会用自己计算出的协商密钥解密`encrypted_handshake_message`查看里面`sessionSecret`是否和自己生成的一致，如果一致则用协商出来的密钥加密后续的通信。
+
+&emsp;&emsp;`sessionSecret`就是TLS协议传输阶段对称加密所用到的密钥。
 
 ### 双向认证
 &emsp;&emsp;上面的整个过程，都是客户端单向认证服务端，也是最为常用的场景。同时，服务端也可以要求验证客户端，比较常见的场景就是大额网银汇款转账会需要在电脑上插入`U盾`。
@@ -50,4 +54,4 @@
 
 &emsp;&emsp;双向认证在单向认证第二步的时候，服务器会要求客户端发送证书，来校验客户端证书有效性。
 
-&emsp;&emsp;TLS通过上面的五个步骤完成了秘钥的协商，可是三个随机数`random_C，random_S，pre-master`又是如何选择的？其中又有什么魔法？
+&emsp;&emsp;TLS通过上面的五个步骤完成了密钥的协商，其中用到了三个随机数`random_C，random_S，pre-master`，而如何通过三个随机数完成密钥交换就需要用到密钥协商算法。
