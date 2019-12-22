@@ -1,6 +1,6 @@
 ## 区块链的构造和解释
 
-通过对Bitcoin，Ethereum, Fabric的技术原理分析，全景式的展示区块链底层技术原理。
+通过对Bitcoin，Ethereum，Fabric的技术原理分析，自底而上的介绍区块链底层技术原理。
 
 ## vision
 
@@ -12,16 +12,20 @@
 
 ### 安全与加密
 
-[密码学基础](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/chapter_1.md)
+[1.1 密码学基础](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/chapter_1.md)
 
-[可信通信](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/tls.md)
+[1.2 可信通信](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/tls.md)
 
-[密钥协商](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/ECDH.md)
+[1.3 密钥协商](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/ECDH.md)
 
-[身份认证](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/ca.md)
+[1.4 身份认证](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/ca.md)
+
+[1.5 小节](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/1_5.md)
 
 ### 网络层
 [gossip协议](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/gossip.md)
+
+[Kademlia算法原理详解](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/kad.md)
 
 ### 交易模型
 
