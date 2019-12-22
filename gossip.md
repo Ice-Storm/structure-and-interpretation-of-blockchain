@@ -1,6 +1,14 @@
 当我们通过一个密码体系可以构建两个节点的安全通信后，只需要很简单的将这个模式扩展，就可以得到一个由很多节点构成的网络，但是当我们将这个模式扩展到比较大的规模，问题就接踵而来了，当我们有4个节点的时候，每个节点需要和除自己以外的节点都建立连接，如果A->B和B->A使用同一条连接的情况下，网络总共需要建立6条连接，当5个节点的时候就需要10条连接，节点间的连接数并不随节点数量线性增长。
 
+
+四个节点如图所示：
+<img src="https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/chapter_2/2_1.png?raw=true" width = "50%" height = "50%" alt="四个节点" align=center />
+五个节点如图所示：
+<img src="https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/chapter_2/2_2.png?raw=true" width = "50%" height = "50%" alt="四个节点" align=center />
+
 在以太坊网络中，目前大概有8000多个全节点，如何我们按照这样的组织形式，显然是不能支撑如此大规模的节点组网。
+
+最容易想到的方法是节点间不需要全量的连接，每个节点只要随机的保持和几个节点连接即可，而每个节点都这样，只要运气不是太差，整个网络也不会产生分区。
 
 
 在Hyperledger Fabric中，节点间同步数据采用的是`Gossip`协议，当节点因为异常缺少账本数据时，可以通过`Gossip`协议从邻近的节点获得账本数据，保证集群中节点账本的一致性。
