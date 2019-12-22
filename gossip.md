@@ -3,6 +3,7 @@
 
 四个节点如图所示：
 <img src="https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/chapter_2/2_1.png?raw=true" width = "50%" height = "50%" alt="四个节点" align=center />
+
 五个节点如图所示：
 <img src="https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/chapter_2/2_2.png?raw=true" width = "50%" height = "50%" alt="四个节点" align=center />
 
@@ -10,8 +11,13 @@
 
 最容易想到的方法是节点间不需要全量的连接，每个节点只要随机的保持和几个节点连接即可，而每个节点都这样，只要运气不是太差，整个网络也不会产生分区。
 
+<img src="https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/chapter_2/1_3.jpg?raw=true" width = "50%" height = "50%" alt="四个节点" align=center />
 
-在Hyperledger Fabric中，节点间同步数据采用的是`Gossip`协议，当节点因为异常缺少账本数据时，可以通过`Gossip`协议从邻近的节点获得账本数据，保证集群中节点账本的一致性。
+在连接12，15，16三个节点的时候，都只有一条连接，当2号节点到12号节点的网络连接故障之后，及时15和16号节点的网络是正常的也无法连接到网络，针对这种这种情况只需要规定一个节点至少连接几个节点即可保证网络的健壮。
+
+当我们想把消息从1号节点传播到16号节点的时候，可以看到通过1->2->15->16这个路径就可以把消息传递过去，每个节点只需要把自己接收到的消息进行告诉和自己建立连接的节点即可。
+
+在Hyperledger Fabric中，节点间同步数据采用的是`Gossip`协议，Gossip协议的过程就是这样，当节点因为异常缺少账本数据时，可以通过`Gossip`协议从邻近的节点获得账本数据，保证集群中节点账本的一致性。
 
 ### Gossip协议
 Gossip是流言的意思，很好的诠释了协议的过程，协议传输数据也是采用了类似流言传播的方式在集群中扩散。
@@ -24,6 +30,7 @@ Gossip 是一种去中心化思路的分布式协议，解决集群中的数据�
 - K个节点接收到A发送过来的数据后，发现自身没有则存储下来，如果有则丢掉，并且重复节点A的过程。
 
 ![gossip](https://github.com/Ice-Storm/ice-storm.github.io/blob/master/images/gossip/1.gif?raw=true)
+
 
 在节点A向节点K发送数据的时候有三种方式；
 - `push`模式，节点A将数据（key，version，value）推送给K，K更新version比自己新的数据。
