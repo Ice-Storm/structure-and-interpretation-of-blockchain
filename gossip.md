@@ -2,7 +2,7 @@
 
 四个节点如图所示：
 
-<img src="https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/chapter_2/2_1.png?raw=true" width = "50%" height = "50%" alt="四个节点" align=center />
+<img src="https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/chapter_2/2_1.png?raw=true" width = "40%" height = "40%" alt="四个节点" align=center />
 
 五个节点如图所示：
 
@@ -44,3 +44,12 @@ push模式需要通信一次，pull模式需要两次，pull/push模式需要通
 - 消息的延迟，由于 Gossip 协议中，节点只会随机向少数几个节点发送消息，消息最终是通过多个轮次的散播而到达全网的，因此使用 Gossip 协议会造成不可避免的消息延迟。不适合用在对实时性要求较高的场景。
 
 - 消息冗余，Gossip 协议规定，节点会定期随机选择周围节点发送消息，而收到消息的节点也会重复该步骤，因此就不可避免的存在消息重复发送给同一节点的情况，造成了消息的冗余，同时也增加了收到消息的节点的处理压力。而且，由于是定期发送，因此，即使收到了消息的节点还会反复收到重复消息，加重了消息的冗余。
+
+采用Gossip协议以后，我们想要确定性的想把一个消息传输给一个节点就变的不可能了，比如想把消息从1号节点确定的传输到16号节点，如果16号节点不在网络中了也可以明确的给我一个传输失败的反馈。
+
+1号节点能做的只能是把想传播的消息告诉相邻的节点，然后期望是能被16号节点接收，如果失败了，也需要等待一会期待别的节点把消息广播给1号节。
+
+导致这个问题最根本的原因就是Gossip协议中，无法计算节点间的距离，每个节点都不知道离目标节点到底还有多远，只能通过这样随机性的方法期待结果最终收敛。
+
+
+
