@@ -1,10 +1,11 @@
 当我们通过一个密码体系可以构建两个节点的安全通信后，只需要很简单的将这个模式扩展，就可以得到一个由很多节点构成的网络，但是当我们将这个模式扩展到比较大的规模，问题就接踵而来了，当我们有4个节点的时候，每个节点需要和除自己以外的节点都建立连接，如果A->B和B->A使用同一条连接的情况下，网络总共需要建立6条连接，当5个节点的时候就需要10条连接，节点间的连接数并不随节点数量线性增长。
 
-
 四个节点如图所示：
+
 <img src="https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/chapter_2/2_1.png?raw=true" width = "50%" height = "50%" alt="四个节点" align=center />
 
 五个节点如图所示：
+
 <img src="https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/chapter_2/2_2.png?raw=true" width = "50%" height = "50%" alt="四个节点" align=center />
 
 在以太坊网络中，目前大概有8000多个全节点，如何我们按照这样的组织形式，显然是不能支撑如此大规模的节点组网。
