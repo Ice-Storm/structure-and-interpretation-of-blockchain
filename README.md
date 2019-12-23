@@ -19,7 +19,11 @@
 ### 网络层
 [2.1 初窥P2P网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/gossip.md)
 
-[Kademlia算法原理详解](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/kad.md)
+2.2 非结构化网络
+
+2.3 [结构化网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/kad.md)
+
+2.4 以太坊Whisper网络
 
 ### 交易模型
 
