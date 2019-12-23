@@ -2,12 +2,6 @@
 
 通过对Bitcoin，Ethereum，Fabric的技术原理分析，自底而上的介绍区块链底层技术原理。
 
-## vision
-
-网络上的关于区块链的资料比较零碎，高质量的文章比较少，希望通过这个项目系统化，高质量的介绍区块链的底层原理，做到通俗易懂，成体系。
-
-如果这个项目对您有所帮助，请点击star让更多的人可以从中受益。
-
 ## Table of Contents
 
 ### 安全与加密
@@ -23,7 +17,7 @@
 [1.5 小节](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/1_5.md)
 
 ### 网络层
-[gossip协议](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/gossip.md)
+[2.1 初窥P2P网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/gossip.md)
 
 [Kademlia算法原理详解](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/kad.md)
 
