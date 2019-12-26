@@ -26,6 +26,7 @@
 2.4 以太坊Whisper网络
 
 ### 交易模型
+[3.1 UTXO模型](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/3_1.md)
 
 ### 智能合约
 
