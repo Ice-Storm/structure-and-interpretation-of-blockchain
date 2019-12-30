@@ -19,11 +19,11 @@
 ### 网络层
 [2.1 初窥P2P网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/gossip.md)
 
-2.2 非结构化网络
+[2.2 结构化网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/kad.md)
 
-2.3 [结构化网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/kad.md)
+[2.3 RLP编码](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/rlp.md)
 
-2.4 以太坊Whisper网络
+[2.4 以太坊RLPx子协议与Whisper网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/2_3.md)
 
 ### 交易模型
 [3.1 UTXO模型](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/3_1.md)
