@@ -29,6 +29,8 @@
 [3.1 UTXO模型](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/3_1.md)
 
 ### 智能合约
+[4.1 Solidity简明教程](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_1.md)
+
 
 ### 数据结构与存储
 
