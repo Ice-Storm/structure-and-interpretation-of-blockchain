@@ -32,9 +32,15 @@
 [4.1 Solidity简明教程](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_1.md)
 
 
+### 深入EVM虚拟机
+[5.1 内联汇编]
+[5.2 数据存储]
+
 ### 数据结构与存储
 
-### 共识机制
+### 公链共识
+
+### 联盟链共识
 
 
 ## Community
