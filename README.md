@@ -33,6 +33,10 @@
 ### 智能合约
 [4.1 Solidity简明教程](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_1.md)
 
+[4.2 合约结构](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_2.md)
+
+[4.3 变量](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_3.md)
+
 
 ### 深入EVM虚拟机
 [5.1 内联汇编]
