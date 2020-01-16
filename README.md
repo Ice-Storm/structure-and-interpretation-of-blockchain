@@ -23,7 +23,7 @@
 
 [2.3 RLP编码](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/rlp.md)
 
-[2.4 以太坊RLPx子协议与Whisper网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/2_3.md)
+[2.4 Whisper网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/2_3.md)
 
 ### 交易模型
 [3.1 UTXO模型](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/3_1.md)
@@ -37,10 +37,15 @@
 
 [4.3 变量](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_3.md)
 
-[4.4 函数与事件](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_4.md)
+[4.4 控制结构与异常处理](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_4.md)
 
-[4.5 合约继承](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_5.md)
+[4.5 函数与事件](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_5.md)
 
+[4.6 合约继承](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_6.md)
+
+[4.7 杂项](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_7.md)
+
+[4.8 几个例子](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_8.md)
 
 ### 深入EVM虚拟机
 [5.1 内联汇编]
