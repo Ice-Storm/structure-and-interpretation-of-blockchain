@@ -37,6 +37,10 @@
 
 [4.3 变量](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_3.md)
 
+[4.4 函数与事件](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_4.md)
+
+[4.5 合约继承](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_5.md)
+
 
 ### 深入EVM虚拟机
 [5.1 内联汇编]
