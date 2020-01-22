@@ -56,6 +56,10 @@
 
 ### 公链共识
 
+[6.1 比特币共识](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_1.md)
+
+[6.2 以太坊共识](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_2.md)
+
 ### 联盟链共识
 
 
