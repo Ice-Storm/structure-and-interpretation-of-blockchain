@@ -60,6 +60,8 @@
 
 [6.2 以太坊共识](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_2.md)
 
+[6.3 以太坊Ghost协议](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_3.md)
+
 ### 联盟链共识
 
 
