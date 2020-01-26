@@ -54,13 +54,19 @@
 
 ### 数据结构与存储
 
+[6.1 默克尔树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_1.md)
+
+[6.2 字典树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_2.md)
+
+[6.3 MPT树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_3.md)
+
 ### 公链共识
 
-[6.1 比特币共识](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_1.md)
+[7.1 比特币共识](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_1.md)
 
-[6.2 以太坊共识](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_2.md)
+[7.2 以太坊共识](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_2.md)
 
-[6.3 以太坊Ghost协议](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_3.md)
+[7.3 以太坊Ghost协议](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_3.md)
 
 ### 联盟链共识
 
