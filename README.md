@@ -62,14 +62,15 @@
 
 ### 公链共识
 
-[7.1 比特币共识](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_1.md)
+[7.1 比特币共识](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/7_1.md)
 
-[7.2 以太坊共识](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_2.md)
+[7.2 以太坊共识](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/7_2.md)
 
-[7.3 以太坊Ghost协议](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_3.md)
+[7.3 以太坊Ghost协议](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/7_3.md)
 
 ### 联盟链共识
 
+[8.1 RAFT算法](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/8_1.md)
 
 ## Community
 
