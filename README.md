@@ -60,6 +60,8 @@
 
 [6.3 MPT树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_3.md)
 
+[6.4 Bucket树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_4.md)
+
 ### 公链共识
 
 [7.1 比特币共识](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/7_1.md)
