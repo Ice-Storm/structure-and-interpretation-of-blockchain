@@ -72,6 +72,8 @@
 
 [8.1 RAFT算法](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/8_1.md)
 
+[8.2 PBFT算法](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/8_2.md)
+
 ## Community
 
 快速联系方式；
