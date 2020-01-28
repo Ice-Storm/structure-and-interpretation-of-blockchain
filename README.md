@@ -50,7 +50,7 @@
 ### 深入EVM虚拟机
 [5.1 内联汇编]
 
-[5.2 数据存储]
+[5.2 数据存储](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_2.md)
 
 ### 数据结构与存储
 
