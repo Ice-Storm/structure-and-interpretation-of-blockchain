@@ -52,15 +52,22 @@
 
 [5.2 数据存储](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_2.md)
 
-### 数据结构与存储
+### 核心数据结构
 
-[6.1 默克尔树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_1.md)
+[6.1 交易与回执](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_1.md)
 
-[6.2 字典树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_2.md)
 
-[6.3 MPT树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_3.md)
+[6.2 默克尔树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_2.md)
 
-[6.4 Bucket树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_4.md)
+[6.3 字典树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_3.md)
+
+[6.4 MPT树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_4.md)
+
+[6.5 Bucket树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_5.md)
+
+[6.6 交易结构](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_6.md)
+
+[6.7 区块结构](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_7.md)
 
 ### 公链共识
 
