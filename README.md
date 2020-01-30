@@ -31,19 +31,21 @@
 [3.2 账户模型](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/3_2.md)
 
 ### 智能合约
-[4.1 Solidity简明教程](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_1.md)
+[4.1 Gas机制](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_1.md)
 
-[4.2 合约结构](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_2.md)
+[4.2 Solidity开发环境](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_2.md)
 
-[4.3 变量](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_3.md)
+[4.3 合约结构](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_3.md)
 
-[4.4 控制结构与异常处理](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_4.md)
+[4.4 变量](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_4.md)
 
-[4.5 函数与事件](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_5.md)
+[4.5 控制结构与异常处理](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_5.md)
 
-[4.6 合约继承](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_6.md)
+[4.6 函数与事件](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_6.md)
 
-[4.7 杂项](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_7.md)
+[4.7 合约继承](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_7.md)
+
+[4.8 杂项](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_8.md)
 
 [4.8 几个例子](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_8.md)
 
@@ -56,7 +58,6 @@
 
 [6.1 交易与回执](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_1.md)
 
-
 [6.2 默克尔树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_2.md)
 
 [6.3 字典树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_3.md)
@@ -65,9 +66,7 @@
 
 [6.5 Bucket树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_5.md)
 
-[6.6 交易结构](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_6.md)
-
-[6.7 区块结构](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_7.md)
+[6.6 区块结构](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_6.md)
 
 ### 公链共识
 
