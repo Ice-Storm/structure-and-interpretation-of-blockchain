@@ -5,7 +5,6 @@
 ## Table of Contents
 
 ### 安全与加密
-
 [1.1 密码学基础](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/chapter_1.md)
 
 [1.2 可信通信](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/tls.md)
@@ -47,15 +46,12 @@
 
 [4.8 杂项](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_8.md)
 
-[4.8 几个例子](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_8.md)
-
 ### 深入EVM虚拟机
-[5.1 内联汇编]
+[5.1 Solidity汇编](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_1.md)
 
 [5.2 数据存储](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_2.md)
 
 ### 核心数据结构
-
 [6.1 交易与回执](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_1.md)
 
 [6.2 默克尔树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_2.md)
