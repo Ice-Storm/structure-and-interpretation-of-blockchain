@@ -9,20 +9,20 @@
 
 [1.2 可信通信](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/tls.md)
 
-[1.3 密钥协商](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/ECDH.md)
+[1.3 密钥协商](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/1_3.md)
 
 [1.4 身份认证](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/ca.md)
 
 [1.5 小节](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/1_5.md)
 
 ### 网络层
-[2.1 初窥P2P网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/gossip.md)
+[2.1 初窥P2P网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/2_1.md)
 
-[2.2 结构化网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/kad.md)
+[2.2 结构化网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/2_2.md)
 
-[2.3 RLP编码](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/rlp.md)
+[2.3 RLP编码](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/2_3.md)
 
-[2.4 Whisper网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/2_3.md)
+[2.4 Whisper网络](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/2_4.md)
 
 ### 交易模型
 [3.1 UTXO模型](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/3_1.md)
