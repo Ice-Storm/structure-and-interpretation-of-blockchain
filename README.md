@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-### 必读前言
+### 前言
 [必读前言](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/0_0.md)
 ### 安全与加密
 [1.1 密码学基础](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/chapter_1.md)
