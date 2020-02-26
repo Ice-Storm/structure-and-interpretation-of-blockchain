@@ -56,15 +56,15 @@
 ### 核心数据结构
 [6.1 交易与回执](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_1.md)
 
-[6.2 默克尔树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_2.md)
+[6.2 区块结构](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_2.md)
 
-[6.3 字典树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_3.md)
+[6.3 轻节点与默克尔树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_3.md)
 
-[6.4 MPT树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_4.md)
+[6.4 字典树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_4.md)
 
-[6.5 Bucket树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_5.md)
+[6.5 MPT树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_5.md)
 
-[6.6 区块结构](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_6.md)
+[6.6 Bucket树](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_6.md)
 
 ### 公链共识
 
