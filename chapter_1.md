@@ -44,7 +44,7 @@
 > 代表算法：DES，AES；
 
 ### 非对称加密
-非对称加密是指进行明文到密文加密和密文到明文解密时使用不同的密钥，非对称加密会生成公私钥对，一个用于加密，一个用于解密，其中加密密钥可以公开，称之为公钥（Public Key），解密密钥需要严格保存不能公开，称之为私钥（Private Key）。
+非对称加密是指进行明文到密文加密和密文到明文解密时使用不同的密钥，非对称加密在使用前首先要生成公私钥对，一个用于加密，一个用于解密，其中用于加密的密钥可以公开，称之为公钥（Public Key），用于解密的密钥需要严格保存不能公开，称之为私钥（Private Key）。
 
 ![Alt text](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/img/chapter_1/2.png?raw=true)
 
