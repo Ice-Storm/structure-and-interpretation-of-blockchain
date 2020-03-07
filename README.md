@@ -80,6 +80,14 @@
 
 [8.2 PBFT算法](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/8_2.md)
 
+### 预言机（Oracles）
+
+[预言机](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/9_1.md)
+
+### 区块链标准
+
+[区块链标准](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/10_1.md)
+
 ## Community
 
 快速联系方式；
