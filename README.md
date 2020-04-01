@@ -49,9 +49,13 @@
 [4.8 杂项](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/4_8.md)
 
 ### 深入EVM虚拟机
-[5.1 Solidity汇编](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_1.md)
+[5.1 EVM简介](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_1.md)
 
-[5.2 数据存储](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_2.md)
+[5.2 Solidity汇编](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_2.md)
+
+[5.3 EVM数据管理](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_3.md)
+
+[5.4 事件与日志](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_4.md)
 
 ### 核心数据结构
 [6.1 交易与回执](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_1.md)
