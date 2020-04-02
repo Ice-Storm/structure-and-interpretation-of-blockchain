@@ -57,6 +57,8 @@
 
 [5.4 事件与日志](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_4.md)
 
+[5.5 跨合约调用](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_5.md)
+
 ### 核心数据结构
 [6.1 交易与回执](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/6_1.md)
 
