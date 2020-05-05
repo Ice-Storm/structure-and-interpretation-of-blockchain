@@ -80,6 +80,9 @@
 
 [7.3 以太坊Ghost协议](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/7_3.md)
 
+[7.4 公链激励](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/7_4.md)
+
+
 ### 联盟链共识
 
 [8.1 RAFT算法](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/8_1.md)
