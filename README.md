@@ -49,9 +49,9 @@
 ### 深入EVM虚拟机
 [5.1 EVM简介](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_1.md)
 
-[5.2 Solidity汇编](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_2.md)
+[5.2 EVM体系结构](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_2.md)
 
-[5.3 EVM数据管理](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_3.md)
+[5.3 Solidity汇编](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_3.md)
 
 [5.4 事件与日志](https://github.com/Ice-Storm/structure-and-interpretation-of-blockchain/blob/master/5_4.md)
 
