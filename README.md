@@ -14,8 +14,6 @@ Email:  wcwz020140@163.com
 
 Blog: [qyuan.top](http://qyuan.top/)
 
-Zhihu:  [清源](https://www.zhihu.com/people/qing-yuan-8-56/activities)
-
 ## Contributors
 
 如果文章中出现错别字，表述不清，错误，可以通过Issue，提交Commit来完善这个项目。
@@ -24,8 +22,6 @@ Zhihu:  [清源](https://www.zhihu.com/people/qing-yuan-8-56/activities)
 
 ## Acknowledgments
 [七哥](https://github.com/ysqi)(review以太坊共识)，登链学院合伙人，首席讲师，是百万阅读电子书《以太坊技术与实现》的作者，是视频课程《说透以太坊技术》的讲师。前国信香港证券 IT 运维经理，前Nerthus区块链CTO。
-
-
 
 ## License
 Book License: [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
