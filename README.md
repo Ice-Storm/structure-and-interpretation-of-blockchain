@@ -21,6 +21,10 @@ Email:  wcwz020140@163.com
 
 Blog: [qyuan.top](http://qyuan.top/)
 
+当当：[购买链接](http://product.dangdang.com/29260508.html)
+
+京东：[购买链接](https://item.jd.com/13316098.html)
+
 ## 贡献
 
 如果文章中出现错别字，表述不清，错误，可以通过Issue，提交Commit来完善这个项目。
