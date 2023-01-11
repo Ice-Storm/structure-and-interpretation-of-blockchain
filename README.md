@@ -13,8 +13,6 @@
 
 快速联系方式；
 
-QQ群：829464615
-
 Wechat: Ether-net
 
 Email:  wcwz020140@163.com
